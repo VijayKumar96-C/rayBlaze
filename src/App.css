@@ -19,6 +19,9 @@
   .exTextr {
     padding-left: 0px !important;
   }
+  .servicedLocation p{
+    padding-right: 20px !important;
+  }
 
 }
 
@@ -96,10 +99,6 @@
     flex-direction: column;
   }
 
-  /* .content p {
-  display: none;
-  } */
-
 
 
   .servicesContainer {
@@ -156,17 +155,18 @@
   .recomContainer {
     margin-top: 50px !important;
   }
-  .searchIcon {
-    
+  .searchIcon { 
     height: 22px !important;
-  
   }
 
   .downloadImage {
-  
     width: 200px !important;
     height: 35px !important;
     position: absolute;
+  }
+
+  .servicedLocation p{
+    padding-right: 5px !important;
   }
 }
 
@@ -178,7 +178,6 @@
 .App {
   width: auto;
   height: screen;
-  /* background-color: gray; */
   margin: 45px;
 }
 
@@ -216,17 +215,9 @@
   font-size: xx-large;
 }
 
-/* .image {
-  display: block;
-  max-width: 100%;
- 
-} */
 .imageBox {
-  /* position: relative; */
-  /* width: 100%; */
   width: 100%;
   height: 350px;
-  /* background-color: red; */
   background-image: url("https://img.freepik.com/free-photo/ritual-with-coconut-leaves-during-traditional-hindu-wedding-ceremony_8353-8909.jpg?w=996&t=st=1704284330~exp=1704284930~hmac=1389992f61e0644f6ff890da97869816dbdcdcaa6cae541edd244700070468bd");
   background-size: cover;
   background-position: center;
@@ -236,10 +227,6 @@
 }
 
 .navLinks {
-  /* position: absolute;
-  top: 10px;
-  left: 10px;
-  z-index: 1; */
   color: white;
   padding-top: 20px;
   padding-left: 30px;
@@ -322,8 +309,6 @@
 
 }
 
-.servicedLocation p {}
-
 .footerText {
   display: flex;
   justify-content: space-between;
@@ -345,12 +330,9 @@
   padding-bottom: 15px;
 }
 
-
 .mobileImage {
   width: 650px;
 }
-
-
 
 .adCard {
   width: 100%;
@@ -374,7 +356,6 @@
   background-repeat: no-repeat;
   color: black;
   font-size: larger;
-
 }
 
 .logo {
@@ -623,4 +604,8 @@
   width: 300px;
   height: 55px;
   position: absolute;
+}
+
+.servicedLocation p{
+  padding-right: 50px;
 }
