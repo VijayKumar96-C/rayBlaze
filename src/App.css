@@ -1,38 +1,626 @@
+@media screen and (max-width:992px) {
+  .headerServiceCard {
+    display: none;
+  }
+  .pad {
+    padding-right: 20px  !important;
+  }
+  .servicesContain {
+    padding-left: 50px !important;
+    width: 80% !important;
+  }
+  .FooterContainer {
+    padding-left: 50px !important;
+  }
+
+  .mobileImage {
+    width: 400px !important;
+  }
+  .exTextr {
+    padding-left: 0px !important;
+  }
+
+}
+
+@media screen and (max-width:600px) {
+  .App {
+    margin: 20px !important;
+  }
+
+  .contactsParent {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .contacts span {
+
+    display: none;
+  }
+
+  p {
+    font-size: x-small;
+  }
+
+  .headerServiceCard {
+    display: none;
+  }
+
+  .pad {
+    padding-right: 5px !important;
+
+  }
+
+  .logo {
+    height: 20px !important;
+    width: 20px !important;
+  }
+  .dropDown {
+    height: 30px !important;
+    padding: 5px !important;
+  }
+
+  .inputBox {
+    width: 180px !important;
+    margin-left: 0px !important;
+    padding: 5px !important;
+  }
+
+  .inputBoxes {
+    display: flex;
+    flex-direction: column !important;
+  }
+
+  .navLinks {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: small !important;
+  }
+  .navLinks nav{
+    display: none;
+  }
+
+  .headText {
+    font-size: large !important;
+  }
+
+  .mobileImage {
+    width: 325px !important;
+  }
+
+  .HeadDetailsContainer {
+    padding-left: 10px !important;
+  }
+
+  .contentContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* .content p {
+  display: none;
+  } */
+
+
+
+  .servicesContainer {
+    /* display: flex;
+    flex-direction: column; */
+    overflow: hidden;
+  }
+
+  .footerNav {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column !important; */
+  }
+
+  .FooterContainer {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+
+  .contactUs {
+    display: none;
+  }
+
+  .content h3 {
+    font-size: small;
+  }
+
+  .socialIcons {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .ServiceCard img{
+    display: flex;
+    flex-wrap: wrap;
+    width: 320px !important;
+    height: 120 !important;
+  }
+  .arrowContainer {
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 10px !important;
+    
+  }
+  .arrowIcon {
+    width: 20px !important;
+    height: 20px !important;
+  
+  }
+  .arrowContainerRight{
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 10px !important;
+  }
+  .recomContainer {
+    margin-top: 50px !important;
+  }
+  .searchIcon {
+    
+    height: 22px !important;
+  
+  }
+
+  .downloadImage {
+  
+    width: 200px !important;
+    height: 35px !important;
+    position: absolute;
+  }
+}
+
+.inputBoxes {
+  display: flex;
+  flex-direction: row;
+}
+
 .App {
+  width: auto;
+  height: screen;
+  /* background-color: gray; */
+  margin: 45px;
+}
+
+.Header {
+  width: 100%;
+  background-color: #f5f7f6;
+  height: 350px;
+  position: relative;
+}
+
+.headerServiceCard {
+  position: absolute;
+  top: 0;
+  margin-top: 300px;
+  margin-left: 270px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexCol {
+  display: flex;
+  flex-direction: column;
+}
+
+.headText {
+  font-size: xx-large;
+}
+
+/* .image {
+  display: block;
+  max-width: 100%;
+ 
+} */
+.imageBox {
+  /* position: relative; */
+  /* width: 100%; */
+  width: 100%;
+  height: 350px;
+  /* background-color: red; */
+  background-image: url("https://img.freepik.com/free-photo/ritual-with-coconut-leaves-during-traditional-hindu-wedding-ceremony_8353-8909.jpg?w=996&t=st=1704284330~exp=1704284930~hmac=1389992f61e0644f6ff890da97869816dbdcdcaa6cae541edd244700070468bd");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+
+}
+
+.navLinks {
+  /* position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1; */
+  color: white;
+  padding-top: 20px;
+  padding-left: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.loginButton {
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  background: transparent;
+  color: white;
+  border-color: white;
+}
+
+
+.HeadDetailsContainer {
+  width: 100%;
+  padding-left: 50px;
+
+}
+
+.HeadContainer {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.recomContainer {
+  margin-top: 175px;
+}
+
+.recomContainer h2 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.recomServiceContainer {
+  width: 100%;
+  padding: 20px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+.imageR {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+
+
+.FooterContainer {
+  background-color: #3a3b3a;
+  padding-left: 150px;
+  padding-right: 100px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.footerNav {
+  display: flex;
+  justify-content: space-around;
+  /* padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 30px; */
+  padding: 15px 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.servicedLocation {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+
+.servicedLocation p {}
+
+.footerText {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.content {
+  padding-right: 10px;
+  padding-top: 5px;
+}
+
+.content p {
+  padding-bottom: 15px;
+}
+
+
+.mobileImage {
+  width: 650px;
+}
+
+
+
+.adCard {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  background-color: white;
+}
+
+.adCardContainer {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 150px;
+  padding-right: 100px;
+  background-image: url("https://img.freepik.com/free-photo/luxury-wedding-concept-wedding-rings-ribbon_23-2148652000.jpg?w=1380&t=st=1704303152~exp=1704303752~hmac=03c48de665b647ccc9d8923b430ed6adb73d5d2ec50c5382f55dd5d74df789e8");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: black;
+  font-size: larger;
+
+}
+
+.logo {
+  height: 35px;
+  width: 35px;
+  background-color: #f01a93;
+  border-radius: 10%;
+  text-align: end;
+}
+
+.pad {
+  padding-right: 75px;
+}
+
+.padLeft {
+  padding-left: 50px;
+}
+
+.fontIcons {
+  padding-top: 5px;
+  padding-right: 10px;
+}
+
+.padTop {
+  padding-top: 30px;
+}
+
+.textClr {
+  color: #f01a93;
+}
+
+.textGrey {
+  color: #b5b0b3;
+}
+
+.dropDown {
+  padding: 10px;
+  width: 120px;
+  height: 40px;
+  border-radius: 3%;
+  color: #b5b0b3;
+
+}
+
+.input {
+  border: none;
+}
+
+.inputBox {
+  margin-left: 25px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  width: 250px;
+  height: 20px;
+  border-radius: 3%;
+  border: solid black;
+  border-width: 1px;
+  color: #b5b0b3;
+}
+
+.searchIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10%;
+  width: 32px;
+  height: 32px;
+  background-color: #f01a93;
+}
+
+.exText {
+  padding-top: 10px;
+  font-size: small;
+  color: #b5b0b3;
+}
+
+.exTextr {
+  padding-top: 10px;
+  font-size: small;
+  color: #b5b0b3;
+  padding-left: 25px;
+}
+
+
+
+.serviceList {
+  padding: 15px;
+  overflow: hidden;
+}
+
+.ServiceCard {
+  padding-right: 25px;
+}
+
+.ServiceCard span {
+
+  justify-content: space-between;
+}
+
+.ServiceCard img {
+  width: 400px;
+  height: 180px;
+  border-radius: 5px;
+}
+
+.cardTextPad {
+  padding-top: 10px;
+}
+
+.JoinButton {
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  border-color: #f01a93;
+  background-color: #f01a93;
+  color: white;
+}
+
+.mobileContainer {
+  /* background-color: #f5f7f6; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.playstoreContainer {
+  /* background-color: #b5b0b3; */
+  background-color: white;
+  width: 100%;
+
+  text-align: center;
+}
+
+.servicesContainer {
+  background-color: #6f706f;
+  width: 100%;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.servicesContain {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  padding-left: 250px;
+}
+
+.servicesContain li {
+  padding: 5px;
+
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.serviceIcons {
+  width: 950px;
+  height: 125px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  /* position: relative; */
+  margin-top: 30px;
+}
+
+.serviceCardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.servIcons {
+  width: 75px;
+  height: 50px;
+  z-index: 1;
+}
+
+.downArrow {
+  width: 76px;
+  height: 38px;
+  background-color: white;
+  border-radius: 38px 38px 0 0;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.arrowParent {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.arrowContainer {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: white;
+  position: absolute;
+  /* margin-top: 70px; */
+}
+
+.arrowContainerRight {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: white;
+  position: absolute;
+  /* margin-top: 70px; */
+  right: 0;
+}
+
+.arrowIcon {
+  width: 40px;
+  height: 40px;
+
+}
+.imagesList {
+  display: flex;
+ position: relative;
+ justify-content: center;
+
+}
+
+.downloadImage {
+  
+  width: 300px;
+  height: 55px;
+  position: absolute;
 }
